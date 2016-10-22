@@ -8,6 +8,6 @@ public class carpaPrincipal extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.carpaPrincipal);
+        setContentView(R.layout.carpaprincipal);
     }
 }
