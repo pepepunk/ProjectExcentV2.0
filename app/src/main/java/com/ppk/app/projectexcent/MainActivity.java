@@ -11,7 +11,7 @@ import android.view.View;
 import android.view.Window;
 import android.widget.ProgressBar;
 
-public class MainActivity extends ActionBarActivity implements View.OnClickListener {
+public class MainActivity extends AppCompatActivity {
     private ProgressBar progreso;
     int duracion = 3000;
 
@@ -25,7 +25,7 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
     }
 
     public void apagar() {
-        progreso2 = ProgressDialog.show(this, "Bienvenido al 2° CONAINTE de ITSOEH", "Espera por favor...");
+        progreso2 = ProgressDialog.show(this, "Bienvenido al 2° CONAINTE de ITSOEH 2016", "Espera por favor...");
         new Handler().postDelayed(new Runnable() {
 
             @Override
@@ -40,8 +40,5 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
         Intent i=new Intent(this,Main2Activity.class);
         finish();
         startActivity(i);
-    }
-    @Override
-    public void onClick(View v) {
     }
 }

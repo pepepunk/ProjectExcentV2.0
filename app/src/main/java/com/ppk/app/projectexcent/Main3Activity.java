@@ -28,54 +28,19 @@ public class Main3Activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
         setContentView(R.layout.activity_main3);
-        Calendar calendario = new GregorianCalendar();
-        int agno=calendario.get(Calendar.YEAR);
-        int mes=calendario.get(Calendar.MONTH)+1;
-        int dia= calendario.get(Calendar.DAY_OF_MONTH);
-        int hora= calendario.get(Calendar.HOUR);
-        int minuto=calendario.get(Calendar.MINUTE);
-        String agnoo= Integer.toString(agno);
-        String mess= Integer.toString(mes);
-        String diaa= Integer.toString(dia);
-        String horaa= Integer.toString(hora);
-        String minutoo= Integer.toString(minuto);
 
-
-                Button bot = (Button) findViewById(R.id.button);
-
-        TextView titulo1 = (TextView) findViewById(R.id.textView13);
-        String texto=agno+" "+mess+" "+diaa+" "+horaa+" "+minutoo;
-        titulo1.setText(texto);
-
-            if (agno == 2016&&mes==10&&dia==22){
-                if (hora==11&&minuto>45&&minuto<=50)
-                {
-                    titulo1.setBackgroundColor(Color.rgb(0, 188, 190));
-                } else if (hora==11&&minuto>=50) {
-                    titulo1.setBackgroundColor(Color.rgb(255, 34, 10));
-                }
-            }
-
+        Button bot = (Button) findViewById(R.id.button);
         bot.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 aparece();
             }
         });
-
-
-
-
-
-    }
+        }
 
     public void aparece()
     {
         Intent i=new Intent(this,Main2Activity.class);
         i.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         startActivity(i);
-
     }
-
-
-
 }

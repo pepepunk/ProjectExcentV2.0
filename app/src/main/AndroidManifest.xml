@@ -15,27 +15,80 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".Main2Activity"
+        <activity android:name=".Main2Activity"
             android:label="@string/nombre1" />
-        <activity
-            android:name=".Main3Activity"
+
+        <activity android:name=".Main3Activity"
             android:label="@string/nombre2" />
-        <activity
-            android:name=".Main4Activity"
+        <activity android:name=".Main4Activity"
             android:label="@string/nombre3" />
-        <activity
-            android:name=".Main5Activity"
+        <activity android:name=".Main5Activity"
             android:label="@string/nombre4" />
-        <activity android:name=".carpaPrincipal" />
-        <activity android:name=".edificioDireccionG" />
-        <activity android:name=".menuEdificios" />
-        <activity android:name=".carpaPrincipal_2" />
-        <activity android:name=".carpaPrincipal_3" />
-        <activity android:name=".edificioDireccionG_2" />
-        <activity android:name=".edificioDireccionG_3" />
-        <activity android:name=".menuEdificios_2" />
-        <activity android:name=".menuEdificios_3"></activity>
+
+
+
+        <activity android:name=".carpaPrincipal"
+            android:label="@string/nombre5"/>
+        <activity android:name=".carpaPrincipal_2"
+            android:label="@string/nombre9"/>
+        <activity android:name=".carpaPrincipal_3"
+            android:label="@string/nombre10"/>
+
+        <activity android:name=".edificioDireccionG"
+            android:label="@string/nombre14"/>
+        <activity android:name=".edificioDireccionG_2"
+            android:label="@string/nombre15"/>
+        <activity android:name=".edificioDireccionG_3"
+            android:label="@string/nombre16"/>
+
+        <activity android:name=".menuEdificios"
+            android:label="@string/nombre6"/>
+        <activity android:name=".menuEdificios_2"
+            android:label="@string/nombre7"/>
+        <activity android:name=".menuEdificios_3"
+            android:label="@string/nombre8"/>
+
+        <activity android:name=".edificio5PB"
+            android:label="@string/nombre11"/>
+        <activity android:name=".edificio5_PB_2"
+            android:label="@string/nombre12"/>
+        <activity android:name=".edificio5PB_3"
+            android:label="@string/nombre13"/>
+
+        <activity android:name=".edificio1PB"
+            android:label="@string/nombre17"/>
+        <activity android:name=".edificio1PB_2"
+            android:label="@string/nombre18"/>
+        <activity android:name=".edificio1PB_3"
+            android:label="@string/nombre19"/>
+
+        <activity android:name=".estacionamiento1"
+            android:label="@string/nombre20"/>
+        <activity android:name=".estacionamiento1_2"
+            android:label="@string/nombre21"/>
+        <activity android:name=".estacionamiento1_3"
+            android:label="@string/nombre22"/>
+
+        <activity android:name=".edificioBiblio"
+            android:label="@string/nombre23"/>
+        <activity android:name=".edificioBiblio_2"
+            android:label="@string/nombre24"/>
+        <activity android:name=".edificioBiblio_3"
+            android:label="@string/nombre25"/>
+
+        <activity android:name=".edificio2Frente"
+            android:label="@string/nombre26"/>
+        <activity android:name=".edificio2Frente_2"
+            android:label="@string/nombre27"/>
+        <activity android:name=".edificio2Frente_3"
+            android:label="@string/nombre28"/>
+
+        <activity android:name=".estacionamiento2"
+            android:label="@string/nombre29"/>
+        <activity android:name=".estacionamiento2_2"
+            android:label="@string/nombre30"/>
+        <activity android:name=".estacionamiento2_3"
+            android:label="@string/nombre31"/>
     </application>
 
 </manifest>

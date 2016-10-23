@@ -14,6 +14,7 @@ public class Main4Activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main4);
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
+
         Button bot= (Button) findViewById(R.id.button);
 
         bot.setOnClickListener(new View.OnClickListener(){

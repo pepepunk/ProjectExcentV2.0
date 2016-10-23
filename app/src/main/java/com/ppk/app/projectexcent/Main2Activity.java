@@ -16,6 +16,7 @@ public class Main2Activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
+
         b1=(Button) findViewById(R.id.bt1);
         b2=(Button) findViewById(R.id.bt2);
         b3=(Button) findViewById(R.id.bt3);
@@ -30,10 +31,6 @@ public class Main2Activity extends AppCompatActivity {
                 aparece2();
             }
         });
-
-
-
-
         b3.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v){
                 aparece3();
@@ -43,20 +40,20 @@ public class Main2Activity extends AppCompatActivity {
     }
     public void aparece()
     {
-        Intent i=new Intent(this,Main3Activity.class);
-        i.setFlags(Intent.FLAG_ACTIVITY_NO_HISTORY);
+        Intent i=new Intent(this,menuEdificios.class);
+        i.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         startActivity(i);
     }
     public void aparece2()
     {
-        Intent i=new Intent(this,Main4Activity.class);
-        i.setFlags(Intent.FLAG_ACTIVITY_NO_HISTORY);
+        Intent i=new Intent(this,menuEdificios_2.class);
+        i.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         startActivity(i);
     }
     public void aparece3()
     {
-        Intent i=new Intent(this,Main5Activity.class);
-        i.setFlags(Intent.FLAG_ACTIVITY_NO_HISTORY);
+        Intent i=new Intent(this,menuEdificios_3.class);
+        i.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         startActivity(i);
     }
 }
