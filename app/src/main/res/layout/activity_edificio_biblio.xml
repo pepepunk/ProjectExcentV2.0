@@ -32,6 +32,7 @@
                     android:layout_height="wrap_content"
                     android:orientation="vertical" >
 
+
                     <TextView
                         android:text="13:00-16:00 Horas."
                         android:layout_width="match_parent"
@@ -73,7 +74,7 @@
                         android:layout_weight="1" />
 
                     <TextView
-                        android:text="Sistemas Computacionales 7A\n Cerón Castillo J.M, Jimenez Micete R."
+                        android:text="Sistemas Computacionales 7°A\n Cerón Castillo J.M, Jimenez Micete R."
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:id="@+id/textView30"
