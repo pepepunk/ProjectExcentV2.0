@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_acerca_de"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.ppk.app.projectexcent.acercaDe">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="101dp"
+                app:srcCompat="@drawable/imagen"
+                android:id="@+id/imageView3" />
+
+            <TextView
+                android:text="CONAINTE ITSOEH 2016\n"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView31"
+                android:textSize="31dp"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textStyle="normal|bold"
+                android:textAllCaps="true" />
+
+            <TextView
+                android:text="Aplicación creada por la carrera de Ing. en Sistemas Computacionales\n"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView33"
+                android:textSize="24sp"
+                android:textAlignment="center" />
+            <TextView
+                android:text="José Manuel Cerón Castillo\nRicardo Jimenez Micete\n7°A"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView3"
+                android:textSize="24sp"
+                android:textAlignment="center" />
+            <Button
+                android:text="Regresar"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/button"
+                android:elevation="24dp"
+                style="@style/Widget.AppCompat.Button"
+                android:visibility="visible"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

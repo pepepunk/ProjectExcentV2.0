@@ -10,7 +10,7 @@ import android.widget.ImageButton;
 import android.widget.ImageView;
 
 public class Main2Activity extends AppCompatActivity {
-    private Button b1,b2,b3;
+    private Button b1,b2,b3,b4;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -20,6 +20,7 @@ public class Main2Activity extends AppCompatActivity {
         b1=(Button) findViewById(R.id.bt1);
         b2=(Button) findViewById(R.id.bt2);
         b3=(Button) findViewById(R.id.bt3);
+        b4=(Button) findViewById(R.id.button2);
 
         b1.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v){
@@ -34,6 +35,11 @@ public class Main2Activity extends AppCompatActivity {
         b3.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v){
                 aparece3();
+            }
+        });
+        b4.setOnClickListener(new View.OnClickListener(){
+            public void onClick(View v){
+                aparece4();
             }
         });
 
@@ -53,6 +59,12 @@ public class Main2Activity extends AppCompatActivity {
     public void aparece3()
     {
         Intent i=new Intent(this,menuEdificios_3.class);
+        i.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+        startActivity(i);
+    }
+    public void aparece4()
+    {
+        Intent i=new Intent(this,acercaDe.class);
         i.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         startActivity(i);
     }

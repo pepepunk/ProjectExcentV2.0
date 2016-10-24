@@ -103,24 +103,26 @@
                         android:textSize="20dp"
                         />
 
+                    <Button
+                        android:text="Regresar"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/button"
+                        android:elevation="24dp"
+                        style="@style/Widget.AppCompat.Button"
+                        android:visibility="visible"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                        android:layout_weight="1" />
+
+                    <TextView
+                        android:text="Sistemas Computacionales 7°A\n Cerón Castillo J.M, Jimenez Micete R."
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView30"
+                        android:layout_weight="1" />
+
                 </LinearLayout>
             </GridLayout>
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_row="26"
-                android:layout_column="0" >
-
-                <Button
-                    android:text="Regresar"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:id="@+id/button"
-                    android:elevation="24dp"
-                    style="@style/Widget.AppCompat.Button"
-                    android:visibility="visible"
-                    android:textAppearance="@style/TextAppearance.AppCompat.Large" />
-            </TableRow>
         </LinearLayout>
     </ScrollView>
 </RelativeLayout>
