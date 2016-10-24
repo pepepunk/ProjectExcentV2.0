@@ -34,7 +34,7 @@ public class carpaPrincipal_2 extends AppCompatActivity {
         String horaa= Integer.toString(hora);
 
 
-        if (agno==2016 && mes==10 && dia==26&&dia<=28) {
+        if (agno==2016 && mes==10 && dia==26) {
 
             if (hora >= 9 && minuto >= 0 && hora < 11 ) {
                 texto1.setTextColor(Color.GREEN);
