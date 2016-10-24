@@ -1,10 +1,15 @@
 package com.ppk.app.projectexcent;
 
 import android.content.Intent;
+import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
+
+import java.util.Calendar;
+import java.util.GregorianCalendar;
 
 public class edificio1PB extends AppCompatActivity {
 
@@ -13,6 +18,36 @@ public class edificio1PB extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_edificio1_pb);
         Button bot = (Button) findViewById(R.id.button);
+
+        TextView texto1=(TextView) findViewById(R.id.id1);
+        TextView texto2=(TextView) findViewById(R.id.id2);
+
+
+        Calendar calendario = new GregorianCalendar();
+        int agno=calendario.get(Calendar.YEAR);
+        int mes=calendario.get(Calendar.MONTH)+1;
+        int dia= calendario.get(Calendar.DAY_OF_MONTH);
+        int hora= calendario.get(Calendar.HOUR_OF_DAY);
+        int minuto=calendario.get(Calendar.MINUTE);
+
+
+
+        if (agno==2016 && mes==10 && dia==25) {
+
+            if (hora >= 13 && minuto >= 0 && hora < 15) {
+                texto1.setTextColor(Color.GREEN);
+            } else if (hora >= 15) {
+                texto1.setTextColor(Color.RED);
+            }
+
+            if (hora >= 15 && minuto >= 0 && hora < 16) {
+                texto2.setTextColor(Color.GREEN);
+            } else if (hora >= 16 ) {
+                texto2.setTextColor(Color.RED);
+            }
+
+
+        }
 
         bot.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {

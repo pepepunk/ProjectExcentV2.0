@@ -1,10 +1,15 @@
 package com.ppk.app.projectexcent;
 
 import android.content.Intent;
+import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
+
+import java.util.Calendar;
+import java.util.GregorianCalendar;
 
 public class edificio1PB_3 extends AppCompatActivity {
 
@@ -12,6 +17,25 @@ public class edificio1PB_3 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_edificio1_pb_3);
+
+        TextView texto1=(TextView) findViewById(R.id.id1);
+
+
+        Calendar calendario = new GregorianCalendar();
+        int agno=calendario.get(Calendar.YEAR);
+        int mes=calendario.get(Calendar.MONTH)+1;
+        int dia= calendario.get(Calendar.DAY_OF_MONTH);
+        int hora= calendario.get(Calendar.HOUR_OF_DAY);
+        int minuto=calendario.get(Calendar.MINUTE);
+
+        if (agno==2016 && mes==10 && dia==27) {
+
+            if (hora >= 11 && minuto >= 0 && hora < 14) {
+                texto1.setTextColor(Color.GREEN);
+            } else if (hora >= 14) {
+                texto1.setTextColor(Color.RED);
+            }
+        }
         Button bot = (Button) findViewById(R.id.button);
 
         bot.setOnClickListener(new View.OnClickListener() {
