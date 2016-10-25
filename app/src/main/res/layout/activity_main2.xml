@@ -61,10 +61,17 @@
                         android:elevation="8dp" />
 
 
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/id1"
+                        android:textSize="24sp"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorAccent"/>
 
                     <ImageView
                         android:layout_width="match_parent"
-                        android:layout_height="151dp"
+                        android:layout_height="139dp"
                         app:srcCompat="@drawable/conainte"
                         android:id="@+id/imageView" />
 

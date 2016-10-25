@@ -67,7 +67,7 @@
                         android:textAppearance="@style/TextAppearance.AppCompat.Headline"
                         android:elevation="8dp" />
                     <Button
-                        android:text="Estacionamiento Pequeño"
+                        android:text="Estacionamiento Alumnos"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:id="@+id/bt5"
@@ -91,7 +91,7 @@
                         android:textAppearance="@style/TextAppearance.AppCompat.Headline"
                         android:elevation="8dp" />
                     <Button
-                        android:text="Estacionamiento Grande"
+                        android:text="Estacionamiento Docentes"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:id="@+id/bt8"

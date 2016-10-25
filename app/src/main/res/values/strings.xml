@@ -15,33 +15,33 @@
     <string name="nombre9">Carpa Principal - Octubre 26</string>
     <string name="nombre10">Carpa Principal - Octubre 27</string>
 
-    <string name="nombre11">Edificio 5 (Planta Baja) - Octubre 25</string>
-    <string name="nombre12">Edificio 5 (Planta Baja) - Octubre 26</string>
-    <string name="nombre13">Edificio 5 (Planta Baja) - Octubre 27</string>
+    <string name="nombre11">Edificio IV (Planta Baja) - Octubre 25</string>
+    <string name="nombre12">Edificio IV (Planta Baja) - Octubre 26</string>
+    <string name="nombre13">Edificio IV (Planta Baja) - Octubre 27</string>
 
     <string name="nombre14">Edificio Dir. Gral. - Octubre 25</string>
     <string name="nombre15">Edificio Dir. Gral. - Octubre 26</string>
     <string name="nombre16">Edificio Dir. Gral. - Octubre 27</string>
 
-    <string name="nombre17">Edificio 1 (Planta Alta) - Octubre 25</string>
-    <string name="nombre18">Edificio 1 (Planta Alta) - Octubre 26</string>
-    <string name="nombre19">Edificio 1 (Planta Alta) - Octubre 27</string>
+    <string name="nombre17">Edificio I (Planta Alta) - Octubre 25</string>
+    <string name="nombre18">Edificio I (Planta Alta) - Octubre 26</string>
+    <string name="nombre19">Edificio I (Planta Alta) - Octubre 27</string>
 
-    <string name="nombre20">Estacionamiento Pequeño - Octubre 25</string>
-    <string name="nombre21">Estacionamiento Pequeño - Octubre 26</string>
-    <string name="nombre22">Estacionamiento Pequeño - Octubre 27</string>
+    <string name="nombre20">Estacionamiento Estudiantes - Octubre 25</string>
+    <string name="nombre21">Estacionamiento Estudiantes - Octubre 26</string>
+    <string name="nombre22">Estacionamiento Estudiantes - Octubre 27</string>
 
     <string name="nombre23">Edificio Biblio. (P. B.) - Octubre 25</string>
     <string name="nombre24">Edificio Biblio. (P. B.) - Octubre 26</string>
     <string name="nombre25">Edificio Biblio. (P. B.) - Octubre 27</string>
 
-    <string name="nombre26">Edificio 2 (Frente) - Octubre 25</string>
-    <string name="nombre27">Edificio 2 (Frente) - Octubre 26</string>
-    <string name="nombre28">Edificio 2 (Frente) - Octubre 27</string>
+    <string name="nombre26">Edificio II (Frente) - Octubre 25</string>
+    <string name="nombre27">Edificio II (Frente) - Octubre 26</string>
+    <string name="nombre28">Edificio II (Frente) - Octubre 27</string>
 
-    <string name="nombre29">Estacionamiento Grande - Octubre 25</string>
-    <string name="nombre30">Estacionamiento Grande - Octubre 26</string>
-    <string name="nombre31">Estacionamiento Grande - Octubre 27</string>
+    <string name="nombre29">Estacionamiento Docentes - Octubre 25</string>
+    <string name="nombre30">Estacionamiento Docentes - Octubre 26</string>
+    <string name="nombre31">Estacionamiento Docentes - Octubre 27</string>
 
 
 </resources>
